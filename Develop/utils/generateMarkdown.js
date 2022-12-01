@@ -50,7 +50,7 @@ ${data.install}
 
 ${data.usage}
 
-${data.license}
+${renderLicenseSection(data.license)}
 
 ## Contributing
 
