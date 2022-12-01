@@ -20,6 +20,11 @@ const questions = [
         type: "input"
     },
     {
+        name: "usage",
+        message: "What is the usage for this project?",
+        type: "input"
+    },
+    {
         name: "contributing",
         message: "What are the contribution guidelines?",
         type: "input"
@@ -32,7 +37,7 @@ const questions = [
     {
         name: "license",
         message: "Choose your license:",
-        choices: ["Apache License 2.0", "GNU GPL", "MIT", "ISC"],
+        choices: ["Apache_2.0", "GPL", "MIT", "ISC", "No license"],
         type: "list"
     },
     {
@@ -48,14 +53,13 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(process.cwd(), fileName), data)
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
 function init() {
-    inquirer.prompt(questions)
-        .then((enteredValues) => {
-            writeToFile("README.md", generateMarkdown(enteredValues))
-        })
+    inquirer.prompt(questions).then((enteredValues) => {
+        writeToFile("README.md", generateMarkdown({...enteredValues}))
+    })
 }
 
 init();
