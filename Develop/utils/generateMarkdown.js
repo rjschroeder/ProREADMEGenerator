@@ -68,7 +68,8 @@ ${data.tests}
 
 ## Questions
 
-${data.questions}
+GitHub Username: ${data.github}
+Email: ${data.email}
 
 `;
 }
