@@ -69,6 +69,7 @@ ${data.tests}
 ## Questions
 
 GitHub Username: ${data.github}
+GitHub Profile: [Click Here](https://github.com/${data.github})
 Email: ${data.email}
 
 `;
