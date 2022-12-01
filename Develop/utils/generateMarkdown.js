@@ -18,7 +18,7 @@ function renderLicenseSection(license) {
   if(license !== "No license"){
     return `## License
 
-    Project License: ${data.license}`;
+Project License: ${license}`;
   } else {
     return "";
   }
