@@ -8,7 +8,8 @@ function renderLicenseBadge(license) {
 
 function renderLicenseLink(license) {
   if(license !== "No license"){
-    return `- [License](#license)`;
+    return `
+- [License](#license)`;
   } else {
     return "";
   }
@@ -16,9 +17,11 @@ function renderLicenseLink(license) {
 
 function renderLicenseSection(license) {
   if(license !== "No license"){
-    return `## License
+    return `
+## License
 
-Project License: ${license}`;
+Project License: ${license}
+`;
   } else {
     return "";
   }
@@ -34,8 +37,7 @@ ${data.description}
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-${renderLicenseLink(data.license)}
+- [Usage](#usage)${renderLicenseLink(data.license)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
@@ -47,9 +49,7 @@ ${data.install}
 ## Usage
 
 ${data.usage}
-
 ${renderLicenseSection(data.license)}
-
 ## Contributing
 
 ${data.contributing}
