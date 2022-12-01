@@ -41,11 +41,6 @@ const questions = [
         type: "list"
     },
     {
-        name: "questions",
-        message: "Enter questions:",
-        type: "input"
-    },
-    {
         name: "github",
         message: "Enter your GitHub username:",
         type: "input"
