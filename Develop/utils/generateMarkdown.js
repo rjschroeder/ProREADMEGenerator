@@ -41,8 +41,10 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
 - [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -50,7 +52,23 @@ ${data.install}
 
 ## Usage
 
+${data.usage}
 
+## License
+
+${data.license}
+
+## Contributing
+
+${data.contributing}
+
+## Tests
+
+${data.tests}
+
+## Questions
+
+${data.questions}
 
 `;
 }
