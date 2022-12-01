@@ -1,6 +1,6 @@
 function renderLicenseBadge(license) {
   if(license !== "No license"){
-    //return license badge here
+    return `[license](https://img.shields.io/badge/license-${license}-blue.svg)`
   } else{
     return "";
   }
@@ -29,6 +29,7 @@ Project License: ${license}
 
 function generateMarkdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
 
 ## Description
 
