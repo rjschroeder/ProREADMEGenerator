@@ -53,14 +53,13 @@ const questions = [
 ];
 
 function writeToFile(fileName, data) {
-    return fs.writeFile(path.join(process.cwd(), fileName), data)
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
 function init() {
-    inquirer.prompt(questions)
-        .then((enteredValues) => {
-            writeToFile("README.md", generateMarkdown(enteredValues))
-        })
+    inquirer.prompt(questions).then((enteredValues) => {
+        writeToFile("README.md", generateMarkdown({...enteredValues}))
+    })
 }
 
 init();
