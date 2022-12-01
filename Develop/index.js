@@ -20,6 +20,11 @@ const questions = [
         type: "input"
     },
     {
+        name: "usage",
+        message: "What is the usage for this project?",
+        type: "input"
+    },
+    {
         name: "contributing",
         message: "What are the contribution guidelines?",
         type: "input"
@@ -34,6 +39,11 @@ const questions = [
         message: "Choose your license:",
         choices: ["Apache License 2.0", "GNU GPL", "MIT", "ISC", "No license"],
         type: "list"
+    },
+    {
+        name: "questions",
+        message: "Enter questions:",
+        type: "input"
     },
     {
         name: "github",
