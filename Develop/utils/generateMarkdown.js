@@ -8,7 +8,7 @@ function renderLicenseBadge(license) {
 
 function renderLicenseLink(license) {
   if(license !== "No license"){
-    //return license link
+    return `- [License](#license)`;
   } else {
     return "";
   }
@@ -34,7 +34,7 @@ ${data.description}
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
+${renderLicenseLink(data.license)}
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
