@@ -6,11 +6,13 @@ const inquirer = require("inquirer");
 const questions = [
     {
         name: "title",
-        question: "What is the project title?"
+        message: "What is the project title?",
+        type: "input"
     },
     {
         name: "description",
-        question: "What is the project description?"
+        message: "What is the project description?",
+        type: "input"
     },
 ];
 
