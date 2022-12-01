@@ -16,7 +16,11 @@ function renderLicenseLink(license) {
 
 function renderLicenseSection(license) {
   if(license !== "No license"){
-    //return license section
+    return `
+    ## License
+
+    Project License: ${data.license}
+    `;
   } else {
     return "";
   }
@@ -46,8 +50,6 @@ ${data.install}
 ## Usage
 
 ${data.usage}
-
-## License
 
 ${data.license}
 
