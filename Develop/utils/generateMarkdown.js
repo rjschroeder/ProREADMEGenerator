@@ -65,6 +65,8 @@ GitHub Username: ${data.github}
 
 GitHub Profile: [Click Here](https://github.com/${data.github})
 
+Feel free to email me with any questions you may have at my email below:
+
 Email: ${data.email}
 
 `;
