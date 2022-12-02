@@ -1,6 +1,6 @@
 function renderLicenseBadge(license) {
   if(license !== "No license"){
-    return `[license](https://img.shields.io/badge/license-${license}-blue.svg)`
+    return `![license](https://img.shields.io/badge/license-${license}-blue.svg)`
   } else{
     return "";
   }
@@ -62,7 +62,9 @@ ${data.tests}
 ## Questions
 
 GitHub Username: ${data.github}
+
 GitHub Profile: [Click Here](https://github.com/${data.github})
+
 Email: ${data.email}
 
 `;
