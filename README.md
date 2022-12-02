@@ -21,6 +21,8 @@ Install required packages with: npm i
 
 Use this project as intended by following the prompts when prompted in the terminal. Move the generated README file wherever needed.
 
+Walkthrough Video: [Click Here](https://drive.google.com/file/d/1AFVjSZAlHIWmppOsF2rE4CbxURUEukq9/view)
+
 ## Contributing
 
 Changes to this code are not covered under any license.
