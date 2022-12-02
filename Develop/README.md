@@ -1,9 +1,9 @@
-# This is the Title
-[license](https://img.shields.io/badge/license-Apache_2.0-blue.svg)
+# Professional README Generator
+![license](https://img.shields.io/badge/license-GPL-blue.svg)
 
 ## Description
 
-This is a great description
+This project generates READMEs
 
 ## Table of Contents
 
@@ -16,27 +16,29 @@ This is a great description
 
 ## Installation
 
-install it like this
+npm i
 
 ## Usage
 
-use it like this
+use it as instructed
 
 ## License
 
-Project License: Apache_2.0
+This project is licensed under: GPL
 
 ## Contributing
 
-contribute however
+contribute freely
 
 ## Tests
 
-test it with this
+there are no tests for this program
 
 ## Questions
 
 GitHub Username: rjschroeder
+
 GitHub Profile: [Click Here](https://github.com/rjschroeder)
-Email: no@gmail.com
+
+Email: Email@email.com
 
